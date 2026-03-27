@@ -1,0 +1,11 @@
+.DS_Store
+*.pyc
+__pycache__/
+.env
+.venv
+node_modules/
+dist/
+build/
+*.log
+.history.json
+.extracted_info.json

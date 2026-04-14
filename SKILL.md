@@ -17,6 +17,7 @@ This skill provides professional contract compliance review capabilities represe
 
 **Key Features:**
 - 8-step comprehensive review workflow
+- Historical case reference and pattern recognition
 - Structured risk analysis and reporting
 - Professional legal perspective with practical experience
 - Identifies explicit legal references and potential risks
@@ -59,6 +60,17 @@ Comprehensive legal reference for contract compliance:
 
 **When to use**: When verifying legal compliance, citing legal bases, or assessing regulatory requirements.
 
+### historical-cases.md
+Historical contract review index and pattern recognition:
+- Case index by contract type and date
+- Similarity assessment guidelines
+- Recurring issues and risk patterns
+- Key learnings from historical reviews
+- Best practices and standard solutions
+- Usage instructions for historical referencing
+
+**When to use**: Before starting review to search for similar past cases, and during review to reference historical patterns and successful modifications.
+
 **Usage Note**: These reference materials are detailed and should be loaded selectively based on contract type and review focus. For routine reviews, the 8-step workflow in this SKILL.md provides sufficient guidance. For complex or high-value contracts, consult the appropriate reference materials.
 
 ## Client Identity
@@ -70,9 +82,58 @@ Comprehensive legal reference for contract compliance:
 
 ## Core Review Workflow
 
-Execute the following 8-step review process systematically:
+Execute the following review process systematically, starting with historical reference check and proceeding through the 8-step review workflow:
 
-**Before Starting**: Consult `references/review-checklists.md` to select the appropriate checklist for your contract type. Work through the checklist systematically as you proceed through the 8 steps.
+**Before Starting**: 
+1. Consult `references/historical-cases.md` to search for similar past reviews
+2. Consult `references/review-checklists.md` to select the appropriate checklist for your contract type
+3. Work through the checklist systematically as you proceed through the steps
+
+### Step 0: Historical Review
+
+**Objectives:**
+- Search for and reference similar past contract reviews
+- Identify recurring issues and risk patterns
+- Apply lessons learned from historical cases
+- Maintain consistency across reviews
+
+**Key Actions:**
+
+**1. Search Historical Cases**
+- Identify contract type (lease, construction, technology, etc.)
+- Search for similar cases by:
+  - Contract type and date
+  - Counterparty name (if same or related)
+  - Project or transaction background
+  - Key issues or risk patterns
+- Assess similarity using scoring guidelines:
+  - **High Similarity (80-100%)**: Same contract type + same counterparty
+  - **Medium Similarity (50-79%)**: Same contract type only
+  - **Low Similarity (20-49%)**: Partial overlap in issues
+  - **No Similarity (0-19%)**: Different types and contexts
+
+**2. Review Historical Cases**
+- Read full review reports for most similar cases
+- Identify recurring issues:
+  - Frequency of occurrence (⭐ rating)
+  - Standard mitigation approaches
+  - Success rates of modifications
+- Extract relevant clause language and modifications
+- Note counterparty-specific issues (if applicable)
+
+**3. Apply Historical Insights**
+- Use standard solutions from past reviews
+- Adapt successful modifications to current context
+- Avoid repeating mistakes from past reviews
+- Build on previous successful negotiation strategies
+
+**4. Document Historical Context**
+- In the final review report, include a "Historical References" section
+- List similar historical cases with similarity scores
+- Explain relevance and key learnings applied
+- Cross-reference successful past modifications
+
+**Output**: Historical context summary to be included in final review report
 
 ### Step 1: Understand Transaction Purpose
 
@@ -355,7 +416,14 @@ For a government service purchase contract, verify whether the contract subject 
 
 ## Output Format
 
-Generate a structured contract review report containing the following 6 sections:
+Generate a structured contract review report containing the following **7 sections**:
+
+### 0. Historical References (NEW)
+- List similar historical cases reviewed
+- Similarity assessment for each referenced case
+- Key insights and learnings applied
+- Recurring issues noted from historical patterns
+- Cross-references to successful past modifications
 
 ### 1. Counterparty Identification
 
@@ -443,6 +511,7 @@ For each identified issue:
 - Propose specific modification
 - Explain rationale for modification
 - Cite legal basis if applicable
+- Reference similar historical cases and their outcomes
 
 ### 6. Risk Level Assessment
 
@@ -453,6 +522,16 @@ Provide reasoning for risk assessment:
 - Impact of risks on client interests
 - Urgency of modifications
 - Recommendations for risk mitigation
+- Comparison with historical cases of similar risk profiles
+
+### 7. Historical Context and Recommendations
+
+Summarize how historical cases inform this review:
+- What patterns from similar cases were observed
+- Which standard solutions were applied
+- What new issues or variations were identified
+- Recommendations for future contract templates
+- Contributions to update historical case index
 
 ## Constraints
 

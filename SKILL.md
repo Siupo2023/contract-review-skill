@@ -21,6 +21,45 @@ This skill provides professional contract compliance review capabilities represe
 - Professional legal perspective with practical experience
 - Identifies explicit legal references and potential risks
 - Provides specific, actionable modification suggestions
+- Bundled reference materials for enhanced accuracy
+
+## Reference Materials
+
+This skill includes comprehensive reference materials in the `references/` directory:
+
+### review-checklists.md
+Detailed checklists for different contract types:
+- Universal contract review checklist
+- Lease agreement checklist (landlord/tenant perspectives)
+- Construction contract checklist
+- Technology contract checklist
+- Sales/purchase contract checklist
+- Service contract checklist
+
+**When to use**: Before starting review, select appropriate checklist and work through it systematically to ensure comprehensive coverage.
+
+### common-risks.md
+Quick reference for identifying high-risk contract provisions:
+- High risk issues (🔴) that must be fixed
+- Medium risk issues (🟡) that should be fixed
+- Low risk issues (🟢) to monitor
+- Industry-specific red flags
+- Risk assessment framework
+
+**When to use**: During risk identification phase to quickly categorize and assess risk severity.
+
+### legal-framework.md
+Comprehensive legal reference for contract compliance:
+- Core legislation (Civil Code, Company Law, SOE regulations)
+- Contract type-specific regulations
+- Industry-specific compliance requirements
+- Contract validity and enforcement principles
+- Dispute resolution mechanisms
+- Client-specific compliance requirements
+
+**When to use**: When verifying legal compliance, citing legal bases, or assessing regulatory requirements.
+
+**Usage Note**: These reference materials are detailed and should be loaded selectively based on contract type and review focus. For routine reviews, the 8-step workflow in this SKILL.md provides sufficient guidance. For complex or high-value contracts, consult the appropriate reference materials.
 
 ## Client Identity
 
@@ -32,6 +71,8 @@ This skill provides professional contract compliance review capabilities represe
 ## Core Review Workflow
 
 Execute the following 8-step review process systematically:
+
+**Before Starting**: Consult `references/review-checklists.md` to select the appropriate checklist for your contract type. Work through the checklist systematically as you proceed through the 8 steps.
 
 ### Step 1: Understand Transaction Purpose
 
@@ -206,6 +247,12 @@ For a government service purchase contract, verify whether the contract subject 
 - Review force majeure clause
 - Review dispute resolution clause
 
+**Risk Reference**: Consult `references/common-risks.md` for comprehensive risk identification and categorization. Use this reference to:
+- Quickly identify high-risk (🔴) provisions that must be modified
+- Assess medium-risk (🟡) provisions that should be addressed
+- Monitor low-risk (🟢) provisions during contract performance
+- Apply industry-specific risk patterns and red flags
+
 **Key Review Areas:**
 
 **1. Effectiveness Clause:**
@@ -318,6 +365,12 @@ Generate a structured contract review report containing the following 6 sections
 - Note any special entities (subsidiaries, affiliates, etc.)
 
 ### 2. Applicable Laws and Regulations
+
+**Legal Reference**: Consult `references/legal-framework.md` for comprehensive legal references including:
+- Core legislation (Civil Code, Company Law, SOE regulations)
+- Contract type-specific regulations
+- Industry-specific compliance requirements
+- Contract validity and enforcement principles
 
 - List all laws and regulations explicitly cited in the contract
 - Identify mandatory legal provisions applicable to the transaction type

@@ -69,6 +69,22 @@
 
 ---
 
+#### Purchase Contracts (采购合同)
+
+**260414** - 江苏洛狄智能装备有限公司真空搅拌脱泡机采购合同
+- **Date**: 2026-04-14
+- **Perspective**: Buyer (湖南未来纤维研究院有限公司)
+- **Contract Amount**: 28,000元（含税）
+- **Key Issues**:
+  - 违约责任过于笼统（缺少具体违约金）
+  - 争议解决地不利于需方（约定在供方所在地）
+  - 验收标准不够具体
+- **Outcome**: 1个高风险点（违约责任），2个中等风险点，建议修改后签订
+- **Location**: `合同审查专题/01-审查报告/260414 江苏洛狄智能装备有限公司采购合同审查报告.md`
+- **Reference Value**: 设备采购合同审查模板，违约责任具体化示例
+
+---
+
 ## 🔍 Search and Match Guidelines
 
 ### Contract Similarity Assessment
@@ -225,6 +241,42 @@ For brevity in less formal reviews:
 - Include confidentiality obligations
 - Address force majeure and unforeseen circumstances
 
+### Purchase Contracts (采购合同)
+
+#### Recurring Issues
+1. **Vague Acceptance Criteria (验收标准模糊)**
+   - Frequency: ⭐⭐⭐⭐⭐ (Always appears in purchase contracts)
+   - Key Risk: Acceptance standards not specific enough, leading to disputes
+   - Standard Solution: Detailed step-by-step acceptance criteria with technical parameters
+
+2. **Unclear Breach Liability (违约责任不明确)**
+   - Frequency: ⭐⭐⭐⭐⭐ (Critical risk)
+   - Key Risk: No specific penalty amounts or calculation methods
+   - Standard Solution: Define penalties for late delivery, quality issues, and non-performance
+
+3. **Dispute Resolution Location (争议解决地)**
+   - Frequency: ⭐⭐⭐⭐ (Very common)
+   - Key Risk: Dispute resolution in supplier's location, unfavorable to buyer
+   - Standard Solution: Specify buyer's location courts for dispute resolution
+
+4. **Payment Terms (付款条款)**
+   - Frequency: ⭐⭐⭐ (Common)
+   - Key Risk: Payment periods too long or unclear conditions
+   - Standard Solution: Clear payment terms (e.g., 30 days after acceptance + invoice)
+
+#### Best Practices
+- Always attach detailed technical specifications for equipment purchases
+- Include quality assurance period with response time requirements
+- Specify warranty terms and repair/replacement procedures
+- Define penalty structures for different types of breaches
+- Include acceptance test procedures with pass/fail criteria
+- Clarify delivery terms (Incoterms if international)
+
+---
+- Specify payment milestones tied to deliverables
+- Include confidentiality obligations
+- Address force majeure and unforeseen circumstances
+
 ---
 
 ## 🔧 Usage Instructions
@@ -288,6 +340,7 @@ For brevity in less formal reviews:
 | Lease Agreements | 2 | 2026-04-14 | Increasing |
 | Construction Contracts | 1 | 2026-03-13 | Stable |
 | Framework Agreements | 2 | 2026-03-23 | Increasing |
+| Purchase Contracts | 1 | 2026-04-14 | New |
 | International Trade | 1 | 2026-04-14 | New |
 
 ### Most Common Issues by Frequency
@@ -295,9 +348,10 @@ For brevity in less formal reviews:
 1. **Unclear Payment Terms** - ⭐⭐⭐⭐⭐ (All contract types)
 2. **Unbalanced Breach Liability** - ⭐⭐⭐⭐ (All contract types)
 3. **Unclear Delivery Standards** - ⭐⭐⭐⭐ (Sales, Service, Construction)
-4. **Vague Acceptance Criteria** - ⭐⭐⭐ (Construction, Technology)
+4. **Vague Acceptance Criteria** - ⭐⭐⭐⭐ (Purchase Contracts, Construction, Technology)
 5. **Unilateral Termination Rights** - ⭐⭐⭐ (Lease, Service)
 6. **IP Ownership Issues** - ⭐⭐⭐ (Technology, Framework)
+7. **Dispute Resolution Location** - ⭐⭐⭐ (Purchase, Sales)
 
 ---
 
